@@ -1,0 +1,33 @@
+napisz aplikację która będzie wyświetlać pliki ze wskazanych
+celem apki jest umożliwienie ładnego podlągu generowanej dokumentacji na serwerze, która jest w róznych plikach i folderach
+
+aplikacja powinna być napisana w PHP, CSS i JS
+główny plik w index.php
+a wszystkie dodatkowe pliki powinny być w katalogu /app_browser_files
+
+
+aplikacja powinna wyświetlać wszystkie pliki we wskazanych w konfiruagji folderach
+takich jak:
+- _bmad-output, docs, _bmad 
+
+pokazywać strukturę filderów - umożliwiać klikanie w foldery i pliki
+
+jeśli to jest plik to:
+- nazwę pliku
+- rozmiar pliku
+- datę modyfikacji
+- typ pliku
+
+
+plki MD i txt - powinny być wyświetlane w formie HTML i podświetlone składnią, ładnie sformatowane
+
+w konfigurajci aplikacji powinny być ustaolne jakie rozszerzenia plików można podlgądać: domyślnie:
+* .md
+* .txt
+* .csv
+* .yaml
+* .yml
+
+
+uwaga, apka musi uwazać by nie wyswietlać pliów z folderów powyżej jej lokalizacji na serwerze
+tzn. np. /root/ 

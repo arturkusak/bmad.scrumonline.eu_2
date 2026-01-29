@@ -1,1 +1,8 @@
 /.vscode
+app_browser_files/app.js
+app_browser_files/config.php
+app_browser_files/README_BROWSER.md
+app_browser_files/styles.css
+
+index.php
+.codeiumignore
